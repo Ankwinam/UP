@@ -25,6 +25,10 @@ public class Choice_NaviActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+
+        ///////////////////////////////////////////////////
+
+
         //지역 별 페이지 버튼 Intent
         ImageButton local_go = (ImageButton)findViewById(R.id.local_go);
         local_go.setOnClickListener(new View.OnClickListener() {
